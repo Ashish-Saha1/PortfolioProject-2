@@ -1,0 +1,115 @@
+.col-ds-1 {width: 8.33%;}
+.col-ds-2 {width: 16.66%;}
+.col-ds-3 {width: 25%;}
+.col-ds-4 {width: 33.33%;}
+.col-ds-5 {width: 41.66%;}
+.col-ds-6 {width: 50%;}
+.col-ds-7 {width: 58.33%;}
+.col-ds-8 {width: 66.66%;}
+.col-ds-9 {width: 75%;}
+.col-ds-10 {width: 83.33%;}
+.col-ds-11 {width: 91.66%;}
+.col-ds-12 {width: 100%;}
+
+
+/* Header Strts */
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    padding: 6px 0;
+    
+       
+}
+
+
+.logo-div{
+  padding: 0px 0;
+  text-align: left;
+  margin-left: 15px;
+  
+  
+}
+
+.navbar ul{
+  
+    padding: 0px 0;
+    text-align: right;
+}
+
+.navbar ul li{
+   display: inline-block;
+   margin: 0 3px;
+  
+   
+}
+
+.navbar ul li a{
+    transition: all .4s;
+}
+
+.navbar ul li a:hover{
+    background-color: transparent;
+    text-decoration: underline;
+    transform: scale(1.2);
+    
+ }
+
+
+  /* Header Ends */
+
+  
+
+  /* Main  Starts */
+
+  #bannar{
+    /* this work is done by only chcnge padding 170px */
+    /* padding: 170px 0; */ 
+    
+    position: relative;
+    height: 100vh;
+  }
+
+  .bannar-description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .bannar-description h1{
+        width: 700px;
+        font-size: 3.5rem;
+  }
+
+  .bannar-description p{
+    width: 500px;
+    font-size: 2rem;
+  }
+
+
+  /* Main  Ends */
+
+
+  /* Footer  Starts */
+
+  .copy-right{
+    text-align: left;
+    font-size: .7rem;
+  }
+
+  .social-media{
+    text-align: right;
+  }
+
+
+  /* Footer Ends */
+
+
+
+
+
+  /* Footer  Ends */
